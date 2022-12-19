@@ -31,5 +31,10 @@ Finally, we describe a repository of manual annotations of neuroimaging articles
 Our efforts aim to facilitate the data collection and preparation, so that researchers in neuroimaging can obtain text and metadata in simple, familiar formats, and quickly start working on high-level analyses using familiar tools from the (data-)scientific software stack.
 
 ## Methods
+
+In Figure 1, we show an overview of the main steps involved in a text-mining project.
+The step that typically motivates the project and is the main focus of the resulting publication is typically the last step, highlighted in green -- the high-level analysis.
+Our goal is to facilitate all the previous steps.
+
 ## Results
 ## Conclusions
