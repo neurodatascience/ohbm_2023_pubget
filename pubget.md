@@ -88,3 +88,9 @@ It contains over 1,800 annotations, and a Jupyter Book provides an overview and 
 In this work, we aim to facilitate the activity of downloading neuroimaging articles, extracting and annotating their content, and analyzing the extracted information.
 This can help a wide variety or projects, from a small section to make a quantitative point in a review or meta-science paper, to the development of new large-scale meta-analysis methods.
 The tools are still evolving and we hope that discussions at the OHBM 2023 meeting will guide us to tailor them to the neuroimaging community's needs.
+
+# Figures
+
+![Methods](file:figures/figure_1.png "Methods") 
+
+![Results](file:figures/figure_2.png "Results") 
