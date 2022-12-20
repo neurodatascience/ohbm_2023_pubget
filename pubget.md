@@ -1,3 +1,7 @@
+# Authors
+
+Jérôme Dockès, Kendra Oudyk, Jean-Baptiste Poline.
+
 # Title
 
 From PubMed to a DataFrame: tools & resources for easier neuroimaging text-mining.
@@ -64,6 +68,8 @@ This can help many projects, from a small quantitative section in a review or me
 The tools are still evolving and we hope that discussions at the OHBM 2023 meeting will help us tailor them to the needs of the neuroimaging community.
 
 # Figures
+
+TODO: add captions
 
 ![Methods](file:figures/figure_1.png "Methods") 
 
