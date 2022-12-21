@@ -47,7 +47,7 @@ Most tools for text labelling are Web-based and incur an important set-up overhe
 labelbuddy is a simple desktop application that operates on a regular file (a SQLite database).
 pubget's output can directly be imported into labelbuddy.
 labelbuddy imports and exports its data to a simple JSON format, and offers a command-line interface, making it well-suited for projects organized around a Git repository.
-A repository containing over 1,800 annotations can be found at https://neurodatascience.github.io/labelbuddy-annotations/.
+An example repository containing over 1,800 annotations can be found at https://neurodatascience.github.io/labelbuddy-annotations/.
 
 ## Results
 
