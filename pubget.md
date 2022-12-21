@@ -24,7 +24,7 @@ Here we introduce interoperable tools that help collecting and labelling text:
 - pubget downloads and processes articles from PubMed Central,
 - labelbuddy is a simple text labelling application.
 
-We want to help neuroimagers skip the tedious part and jump to performing high-level analyses (using familar scientific software) on a rich and user-friendly dataset.
+We want to help neuroimagers skip the tedious data collection and jump to performing high-level analyses (using familar scientific software) on a rich and user-friendly dataset.
 
 ## Methods
 
@@ -73,4 +73,14 @@ TODO: add captions
 
 ![Methods](file:figures/figure_1.png "Methods") 
 
+Top: overview of a text-mining project. The center column shows the main steps, from data collection to the final analysis. The left column shows tools useful for the corresponding step. "new code" is written for a particular project. pubextract will be a Python package in which we plan to collect information extraction modules for specific aspects such as the number of participants. The right column shows the useful outputs produced by the project, and in parentheses suggestions of where they can be stored online.
+
+Bottom left: screenshot of labelbuddy annotating an article downloaded with pubget. Bottom right: screenshot of a small local web application displaying the results of a NeuroSynth-like meta-analysis, that is part of pubget's output when the "--fit_neurosynth" option is used.
+
 ![Results](file:figures/figure_2.png "Results") 
+
+Top left: evolution of the median sample size through time. The green and blue curves represent data from Poldrack & al. The orange curve represents sample sizes automatically extracted from articles obtained with pubget and the query "fMRI[Abstract]". We notice that the blue curve seems slightly higer. These data were obtained from the NeuroSynth dataset, and thus may be slightly biased because it only contains abstracts. Indeed, we noted that articles with larger sample sizes are more likely to report the sample size in their abstract.
+
+Top right: distribution of (automatically extracted) participant ages by category in the articles downloaded with pubget. We note that the healthy populations display a peak around the typical age of university students.
+
+Bottom: maps obtained with NeuroSynth's independence test, as obtained with pubget and the --fit_neurosynth option (first row) and from neurosynth.org (second row). For frequent terms such as "reading", results are similar, but for less frequent terms the increased statistical power afforded by the full-text becomes important. "Prosopagnosia" is absent from neurosynth.org's vocabulary (too rare). 
