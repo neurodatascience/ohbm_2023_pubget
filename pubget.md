@@ -71,13 +71,13 @@ The tools are still evolving and we hope that discussions at the OHBM 2023 meeti
 
 TODO: add captions
 
-![Methods](file:figures/figure_1.pdf "Methods") 
+![Methods](file:figures/figure_1.png "Methods") 
 
 Top: overview of a text-mining project. The center column shows the main steps, from data collection to the final analysis. The left column shows tools useful for the corresponding step. "new code" is written for a particular project. pubextract will be a Python package in which we plan to collect information extraction modules for specific aspects such as the number of participants. The right column shows the useful outputs produced by the project, and in parentheses suggestions of where they can be stored online.
 
 Bottom left: screenshot of labelbuddy annotating an article downloaded with pubget. Bottom right: screenshot of a small local web application displaying the results of a NeuroSynth-like meta-analysis, that is part of pubget's output when the "--fit_neurosynth" option is used.
 
-![Results](file:figures/figure_2.pdf "Results") 
+![Results](file:figures/figure_2.png "Results") 
 
 Top left: evolution of the median sample size through time. The green and blue curves represent data from Poldrack & al. The orange curve represents sample sizes automatically extracted from articles obtained with pubget and the query "fMRI[Abstract]". We notice that the blue curve seems slightly higer. These data were obtained from the NeuroSynth dataset, and thus may be slightly biased because it only contains abstracts. Indeed, we noted that articles with larger sample sizes are more likely to report the sample size in their abstract.
 
