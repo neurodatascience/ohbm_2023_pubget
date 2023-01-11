@@ -11,13 +11,13 @@ From PubMed to a DataFrame: tools & resources for easier neuroimaging text-minin
 ## Intro
 
 With thousands of publications each year, the neuroimaging literature is a rich but challenging resource.
-To exploit it fully, (semi-)automated approaches for indexing, aggregating and summarizing articles are necessary.
+To exploit it fully, systematic or (semi-)automated approaches for indexing, aggregating and summarizing articles are necessary.
 Examples include large-scale meta-analyses (NeuroSynth, NeuroQuery), topic modelling, and more.
 
 An important challenge to text-mining projects is the construction of an appropriate dataset.
-One must download many articles and extract the relevant text, metadata and possibly stereotactic coordinates.
+One must (automatically) download many articles and extract the relevant text, metadata and often the stereotactic coordinates.
 Due to this difficulty, most projects rely on NeuroSynth or NeuroQuery data.
-This drastically limits possibilities: the text itself is not available (only text-frequency features), missing articles cannot be added, etc.
+This drastically limits possibilities: the text itself is not available (only text-frequency features), recent or missing articles cannot be added, etc.
 
 Here we introduce interoperable tools that help collecting and labelling text:
 
@@ -28,7 +28,7 @@ We want to help neuroimagers skip the tedious data collection and jump to perfor
 
 ## Methods
 
-Figure 1 shows the main stages of a text-mining project.
+Fig. 1 shows the stages of a text-mining project.
 The high-level analysis (in green) is the main objective -- for example, plotting the evolution of sample sizes through time.
 However, previous steps (obtaining text, labelling sample sizes) can take much longer.
 
@@ -52,18 +52,18 @@ An example repository containing over 1,800 annotations can be found at https://
 ## Results
 
 As an illustration, we replicated and extended the investigation of sample sizes from Poldrack & al, "Scanning the horizon". 
-We downloaded articles with pubget, designed a heuristic to extract participant counts and demographics, and validated it on 100 articles labelled with labelbuddy.
+We downloaded articles with pubget, designed a heuristic to extract participant counts and demographics, and validated it on 100 articles that we annotated with labelbuddy.
 As shown in Fig. 1.A, the median sample size continued to increase since 2015.
 We also show the distribution of participant's ages.
 The mode for healthy participants is between 20 and 30 years, suggesting that the declaimed practice of recruiting mostly students may be widely followed.
 
-We also ran pubget for a query matching a larger number of articles (over 9,000).
+We also ran pubget for a query matching a larger number of articles (over 9K).
 In Fig 1.B, we show meta-analytic maps obtained with pubget's --fit_neurosynth option (top) and from neurosynth.org (bottom).
 Results are similar for frequent terms, but for rare terms, pubget's use of the full text produces more powerful analyses.
 
 ## Conclusions
 
-We facilitate downloading neuroimaging articles, annotating them and preparing them for analysis.
+We facilitate downloading, annotating and preparing articles for analysis.
 This can help many projects, from a small quantitative section in a review or meta-science paper, to the development of new large-scale meta-analysis methods.
 The tools are still evolving and we hope that discussions at the OHBM 2023 meeting will help us tailor them to the needs of the neuroimaging community.
 

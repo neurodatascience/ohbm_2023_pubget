@@ -1,4 +1,4 @@
-.PHONY: all clean
+.PHONY: all clean count
 
 all: pubget.pdf
 
@@ -10,3 +10,6 @@ figures/figure_%.png: figures/figure_%.svg
 
 clean:
 	rm -f figures/figure_*.png pubget.pdf
+
+count:
+	sed -n '1,/^# Body/d;/^# Figures/,$$d;/^#/{n;d};p' pubget.md | wc
