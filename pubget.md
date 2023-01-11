@@ -69,8 +69,6 @@ The tools are still evolving and we hope that discussions at the OHBM 2023 meeti
 
 # Figures
 
-TODO: add captions
-
 ![Methods](file:figures/figure_1.png "Methods") 
 
 Top: overview of a text-mining project. The center column shows the main steps, from data collection to the final analysis. The left column shows tools useful for the corresponding step. "new code" is written for a particular project. pubextract will be a Python package in which we plan to collect information extraction modules for specific aspects such as the number of participants. The right column shows the useful outputs produced by the project, and in parentheses suggestions of where they can be stored online.
