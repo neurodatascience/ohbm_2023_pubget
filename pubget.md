@@ -11,7 +11,7 @@ From PubMed to a DataFrame: tools & resources for easier neuroimaging text-minin
 ## Intro
 
 With thousands of publications each year, the neuroimaging literature is a rich but challenging resource.
-To exploit it fully, systematic or (semi-)automated approaches for indexing, aggregating and summarizing articles are necessary.
+To exploit it fully, systematic or (semi-)automated approaches for indexing, aggregating and summarising articles are necessary.
 Examples include large-scale meta-analyses (NeuroSynth, NeuroQuery), topic modelling, and more.
 
 An important challenge to text-mining projects is the construction of an appropriate dataset.
@@ -19,12 +19,12 @@ One must (automatically) download many articles and extract the relevant text, m
 Due to this difficulty, most projects rely on NeuroSynth or NeuroQuery data.
 This drastically limits possibilities: the text itself is not available (only text-frequency features), recent or missing articles cannot be added, etc.
 
-Here we introduce interoperable tools that help collecting and labelling text:
+Here we introduce inter-operable tools that help collecting and labelling text:
 
 - pubget downloads and processes articles from PubMed Central,
 - labelbuddy is a simple text labelling application.
 
-We want to help neuroimagers skip the tedious data collection and jump to performing high-level analyses (using familar scientific software) on a rich and user-friendly dataset.
+We want to help neuroimagers skip the tedious data collection and jump to performing high-level analyses (using familiar scientific software) on a rich and user-friendly dataset.
 
 ## Methods
 
@@ -46,7 +46,7 @@ It can be extended with plugins.
 Most tools for text labelling are Web-based and incur an important set-up overhead for small research projects.
 labelbuddy is a simple and lightweight desktop application that operates on a regular file (a SQLite database).
 pubget's output can directly be imported into labelbuddy.
-labelbuddy imports and exports its data to a simple JSON format, and offers a command-line interface, making it well-suited for projects organized around a Git repository.
+labelbuddy imports and exports its data to a simple JSON format, and offers a command-line interface, making it well-suited for projects organised around a Git repository.
 An example repository containing over 1,800 annotations can be found at https://neurodatascience.github.io/labelbuddy-annotations/.
 
 ## Results
@@ -77,7 +77,7 @@ Bottom left: screenshot of labelbuddy annotating an article downloaded with pubg
 
 ![Results](file:figures/figure_2.png "Results") 
 
-Top left: evolution of the median sample size through time. The green and blue curves represent data from Poldrack & al. The orange curve represents sample sizes automatically extracted from articles obtained with pubget and the query "fMRI[Abstract]". We notice that the blue curve seems slightly higer. These data were obtained from the NeuroSynth dataset, and thus may be slightly biased because it only contains abstracts. Indeed, we noted that articles with larger sample sizes are more likely to report the sample size in their abstract.
+Top left: evolution of the median sample size through time. The green and blue curves represent data from Poldrack & al. The orange curve represents sample sizes automatically extracted from articles obtained with pubget and the query "fMRI[Abstract]". We notice that the blue curve seems slightly higher. These data were obtained from the NeuroSynth dataset, and thus may be slightly biased because it only contains abstracts. Indeed, we noted that articles with larger sample sizes are more likely to report the sample size in their abstract.
 
 Top right: distribution of (automatically extracted) participant ages by category in the articles downloaded with pubget. We note that the healthy populations display a peak around the typical age of university students.
 
