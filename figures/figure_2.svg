@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.64"
-     inkscape:cx="367.96875"
-     inkscape:cy="6.25"
+     inkscape:zoom="0.45254834"
+     inkscape:cx="670.64659"
+     inkscape:cy="589.99222"
      inkscape:window-width="1920"
      inkscape:window-height="1035"
      inkscape:window-x="0"
@@ -546,7 +546,10 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g7250">
+       id="g3846"
+       inkscape:export-filename="/home/jerome/workspace/backedup_repositories/origami/ohbm_2023/pubget/figures/figure_2.png"
+       inkscape:export-xdpi="67.270432"
+       inkscape:export-ydpi="67.270432">
       <g
          id="g6443">
         <rect
@@ -2152,67 +2155,62 @@
              x="-58.111282"
              y="78.136307">B</tspan></text>
       </g>
-      <g
-         id="g6060"
-         transform="translate(0,3.7041668)">
-        <rect
-           style="fill:#ffffff;fill-opacity:0.0108614;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.208085"
-           id="rect3433"
-           width="377.0817"
-           height="81.424271"
-           x="-63.850361"
-           y="197.61938" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect3433);stroke-width:0.264583"
-           x="-242.05527"
-           y="448.55472"
-           id="text7459"><tspan
-             x="-63.849609"
-             y="202.61315"
-             id="tspan7960">Top left: evolution of the median sample size through time. The green and blue curves represent data from Poldrack &amp; al. The </tspan><tspan
-             x="-63.849609"
-             y="209.6687"
-             id="tspan7962">orange curve represents sample sizes automatically extracted from articles obtained with pubget and the query &quot;fMRI[Abstract]&quot;. </tspan><tspan
-             x="-63.849609"
-             y="216.72426"
-             id="tspan7964">We notice that the blue curve seems slightly higer. These data were obtained from the NeuroSynth dataset, and thus may be slightly </tspan><tspan
-             x="-63.849609"
-             y="223.77982"
-             id="tspan7966">biased because it only contains abstracts. Indeed, we noted that articles with larger sample sizes are more likely to report the </tspan><tspan
-             x="-63.849609"
-             y="230.83538"
-             id="tspan7968">sample size in their abstract.
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#9d9999;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+         id="rect2249"
+         width="375.11655"
+         height="99.289757"
+         x="-63.590851"
+         y="200.95297" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2249);stroke-width:0.264583"
+         x="-242.05527"
+         y="448.55472"
+         id="text7459"><tspan
+           x="-63.591797"
+           y="205.94713"
+           id="tspan5290">Top left: evolution of the median sample size through time. The green and blue curves represent data from Poldrack &amp; al. The </tspan><tspan
+           x="-63.591797"
+           y="213.00269"
+           id="tspan5292">orange curve represents sample sizes automatically extracted from articles obtained with pubget and the query &quot;fMRI[Abstract]&quot;. </tspan><tspan
+           x="-63.591797"
+           y="220.05825"
+           id="tspan5294">We notice that the blue curve seems slightly higer. These data were obtained from the NeuroSynth dataset, and thus may be </tspan><tspan
+           x="-63.591797"
+           y="227.1138"
+           id="tspan5296">slightly biased because it only contains abstracts. Indeed, we noted that articles with larger sample sizes are more likely to report </tspan><tspan
+           x="-63.591797"
+           y="234.16936"
+           id="tspan5298">the sample size in their abstract.
 </tspan><tspan
-             x="-63.849609"
-             y="237.89093"
-             id="tspan7970">
+           x="-63.591797"
+           y="241.22492"
+           id="tspan5300">
 </tspan><tspan
-             x="-63.849609"
-             y="244.94649"
-             id="tspan7972">Top right: distribution of (automatically extracted) participant ages by category in the articles downloaded with pubget. We note that </tspan><tspan
-             x="-63.849609"
-             y="252.00205"
-             id="tspan7974">the healthy populations display a peak around the typical age of university students.
+           x="-63.591797"
+           y="248.28048"
+           id="tspan5302">Top right: distribution of (automatically extracted) participant ages by category in the articles downloaded with pubget. We note </tspan><tspan
+           x="-63.591797"
+           y="255.33603"
+           id="tspan5304">that the healthy populations display a peak around the typical age of university students.
 </tspan><tspan
-             x="-63.849609"
-             y="259.05761"
-             id="tspan7976">
+           x="-63.591797"
+           y="262.39159"
+           id="tspan5306">
 </tspan><tspan
-             x="-63.849609"
-             y="266.11315"
-             id="tspan7978">Bottom: maps obtained with NeuroSynth's independence test, as obtained with pubget and the --fit_neurosynth option (first row) </tspan><tspan
-             x="-63.849609"
-             y="273.16869"
-             id="tspan7980">and from neurosynth.org (second row). For frequent terms such as &quot;reading&quot;, results are similar, but for less frequent terms the </tspan><tspan
-             x="-63.849609"
-             y="284.03698"
-             id="tspan7986"><tspan
-               dx="0 1.5682063 3.5773845 3.1033392 2.1965914 3.4726534 3.4588737 2.940731 3.4726543 3.5828953 1.7942047 2.940731 2.2131271 3.4588737 2.2131271 1.5682068 2.940731 2.2131271 1.5682068 3.1033401 3.4588737 1.5682068 1.7942047 3.5828972 3.4533577 4.6164246 3.4726562 2.3206177 1.7941971 3.4588776 1.9871292 1.9871292 3.4533615 2.2213974 3.5828934 3.4726562 3.5828934 1.7942047 3.582901 3.3403625 1.7942047 2.2131271 3.5773849 3.4726486 1.7942047 1.9871292 3.5773926 1.5682068 1.5682068 2.0367279 2.2131348 3.3734283 3.3403625 2.2131348 1.7942047 3.5828857 3.4726562 3.1033478 3.4533539 5.4983673 3.4726562 2.9407349 1.7942047 1.5682068 5.4983673 3.582901 3.4533539 2.3206177 2.2131195 3.4588776 3.5773926 2.2131195 1.7942047 1.7942047 2.5962219 3.3045349 2.1965942 3.4533539 2.9407349 3.4533539 3.582901 3.4588776 3.582901 3.5773773 3.4533539 2.9407349 1.5682068 3.4588776 2.5962219 1.7942047 1.5682068 2.9407349 1.7941895 3.4588928 3.5828857 2.9407349 3.4726562 3.5773926 2.2131042 1.79422 1.9871216 2.1965942 3.4533691 5.4983521 1.79422 3.5773621 3.4726562 3.5773926 2.1965942 3.4533691 2.9407349 3.3403625 3.5773621 2.2131348 3.5773926 1.7941895 3.4533691 2.221405 3.5828857 1.5516663 2.9407349"
-               id="tspan7982">increased statistical power afforded by the full-text becomes important. &quot;Prosopagnosia&quot; is absent from neurosynth.org's </tspan><tspan
-               dx="1.79422 3.3403625 3.4533691 3.1033325 3.4588623 3.5829163 3.5773621 1.5682068 3.4588928 2.3206177 3.3403625 1.7941895 2.2021179 2.2131042 3.4533691 3.4533691 1.7941895 2.3206177 3.4588928 2.1965942 3.4726868 2.2021179"
-               id="tspan7984">vocabulary (too rare).</tspan></tspan></text>
-      </g>
+           x="-63.591797"
+           y="269.44713"
+           id="tspan5308">Bottom: maps obtained with NeuroSynth's independence test, as obtained with pubget and the --fit_neurosynth option (first row) </tspan><tspan
+           x="-63.591797"
+           y="276.50267"
+           id="tspan5310">and from neurosynth.org (second row). For frequent terms such as &quot;reading&quot;, results are similar, but for less frequent terms the </tspan><tspan
+           x="-63.591797"
+           y="283.55822"
+           id="tspan5312">increased statistical power afforded by the full-text becomes important. &quot;Prosopagnosia&quot; is absent from neurosynth.org's </tspan><tspan
+           x="-63.591797"
+           y="290.61376"
+           id="tspan5314">vocabulary (too rare).</tspan></text>
       <g
          id="g6647">
         <rect
